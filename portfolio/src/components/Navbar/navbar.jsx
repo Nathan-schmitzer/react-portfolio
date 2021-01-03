@@ -1,35 +1,35 @@
-import { Navbar, Nav } from "react";
+import { Navbar, Nav } from "react-bootstrap";
 import React from "react"
 class BootstrapNavbar extends React.Component{
-    return (){
+    render (){
         return(
             <Nav className="navbar navbar-expand-sm navbar-dark bg-dark">
 
-            <a href="#" class="navbar-brand bg-warning text-primary">Nathan Schmitzer</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+            <a href="#" className="navbar-brand bg-warning text-primary">Nathan Schmitzer</a>
+            <button className="navbar-toggler" type="button"  data-target="#navbarMenu"
             aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
+            <span className="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
             </button>
 
-            {/* v class="collapse navbar-collapse" v */}
-            <Navbar.Collapse  id="navbarMenu">
-            <Nav class="mr-auto">
+            {/* v className="collapse navbar-collapse" v */}
+            <Navbar.Collapse  className="collapse navbar-collapse" id="navbarMenu">
+                <Nav class="mr-auto">
 
-                <ul class="navbar-nav">
-                    <li class="nav-item active ml-auto">
-                        <a href="home.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item active ml-auto">
-                        <a href="index.html" class="nav-link">About Me</a>
-                    </li>
-                    <li class="nav-item active ml-auto">
-                        <a href="portfolio.html" class="nav-link">Portfolio</a>
-                    </li>
-                    <li class="nav-item active ml-auto">
-                        <a href="homeowork-2.html" class="nav-link">Contact Info</a>
-                    </li>
-                </ul>
-            </Nav>
+                    <ul className="navbar-nav">
+                        <li className="nav-item active ml-auto">
+                            <a href="home.html" className="nav-link">Home</a>
+                        </li>
+                        <li className="nav-item active ml-auto">
+                            <a href="index.html" className="nav-link">About Me</a>
+                        </li>
+                        <li className="nav-item active ml-auto">
+                            <a href="portfolio.html" className="nav-link">Portfolio</a>
+                        </li>
+                        <li className="nav-item active ml-auto">
+                            <a href="homeowork-2.html" className="nav-link">Contact Info</a>
+                        </li>
+                    </ul>
+                </Nav>
             </Navbar.Collapse>
         
             </Nav>

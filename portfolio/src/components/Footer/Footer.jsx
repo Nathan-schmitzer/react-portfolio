@@ -2,7 +2,7 @@ import {Navbar, Nav, Container} from 'react-bootstrap';
 import React from "react"
 
 class BootstrapFooter extends React.Component {
-    return (){
+    render (){
         return(
             <Container>
             <Navbar id="border-top" className="page-footer font-small blue pt-1 fixed-bottom bg-secondary">
@@ -14,9 +14,9 @@ class BootstrapFooter extends React.Component {
                         <Nav className="col-md-6 mt-md-0 mt-3 text-md-right">
 
                             
-                            <br> <br> <br>
+                            {/* <br> </br> <br> </br> <br> </br> */}
                                 <h5 class="text-md-right">Visit me on these pages!</h5>
-                            </br> </br> </br>
+                            
                         </Nav>
                         
 
