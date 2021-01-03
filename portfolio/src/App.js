@@ -1,8 +1,13 @@
+import React from "react";
 import './App.css';
-import BootstrapNavbar from './components/Navbar/navbar'
-import Wrapper from "./components/Wrapper/Wrapper"
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom"
-import BootstrapFooter from "./components/Footer/Footer"
+import BootstrapNavbar from './components/Navbar/navbar';
+import Wrapper from "./components/Wrapper/Wrapper";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import BootstrapFooter from "./components/Footer/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 function App() {
   
   return (
