@@ -5,7 +5,7 @@ import Wrapper from "./components/Wrapper/Wrapper";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import BootstrapFooter from "./components/Footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import MainPage from "./pages/index"
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
               {/* Router cannot have more than one single child element */}
               <Switch>
 
-                {/* <Route exact path="/" component={} /> */}
+                <Route exact path="/" component={MainPage} />
                 {/* Render this only if the first route doesnt match */}
                 <Route path="/404" render={
                   () => (
