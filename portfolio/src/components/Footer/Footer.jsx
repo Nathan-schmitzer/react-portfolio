@@ -1,6 +1,7 @@
 import {Navbar, Nav, Container} from 'react-bootstrap';
 import React from "react"
 
+
 class BootstrapFooter extends React.Component {
     render (){
         return(

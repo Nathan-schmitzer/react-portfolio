@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Employee Directory",
+      "screenshot": "/projectImages/employee-directory.png",
+      "deployment": "https://nathan-schmitzer.github.io/employee-directory2/",
+      "repository": "https://github.com/Nathan-schmitzer/employee-directory2",
+      "grade": "A+"
+    },
+    {
+      "id": 2,
+      "name": "Budget Tracker",
+      "screenshot": "/projectImages/budget.png",
+      "deployment": "https://nathan-schmitzer.github.io/budget-tracker", 
+      "repository": "https://github.com/Nathan-schmitzer/budget-tracker",
+      "grade": "A+"
+    },
+    {
+      "id": 3,
+      "name": "Weather Dashboard",
+      "screenshot": "/projectImages/weather.png",
+      "deployment": "https://nathan-schmitzer.github.io/server-side-api",
+      "respository": "https://github.com/Nathan-schmitzer/server-side-api",
+      "grade": "A+"
+    },
+    {
+      "id": 4,
+      "name": "Project Two/ Foodbook",
+      "screenshot": "/projectImages/foodbook.png",
+      "deployment": "https://evening-hamlet-32394.herokuapp.com/",
+      "repository": "https://github.com/Nathan-schmitzer/Project-Two",
+      "grade": "A+"
+    }
+  ]

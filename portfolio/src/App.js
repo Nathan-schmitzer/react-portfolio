@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 import BootstrapFooter from "./components/Footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainPage from "./pages/index"
-
+import Portfolio from "./pages/portfolio"
 
 function App() {
   
@@ -21,6 +21,7 @@ function App() {
                 <Switch>
 
                   <Route exact path="/" component={MainPage} />
+                  <Route exact path="/portfolio" component={Portfolio} />
                   {/* Render this only if the first route doesnt match */}
                   <Route path="/404" render={
                     () => (
