@@ -37,6 +37,85 @@
   }
 }
 
-#border{
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url();
+  margin: 0;
+
+}
+
+nav {
+  border-color: black;
+  border-style: solid;
+}
+
+.my-style {
+  background-image: url("./images/blue-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#border {
   border: 3px solid black;
+}
+
+#border-top {
+  border-top: 3px solid black;
+  
+}
+
+#width {
+  width: 85%;
+}
+
+.own-class {
+  margin: 10px auto;
+}
+
+img[class="img-responsive image-resize img-thumbnail img-fluid m-2"] {
+  height: 250px;
+  width: 300px;
+
+}
+
+#new-height{
+  height:400px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.fa-linkedin{
+    background: #55acee;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.fa-github{
+    background: black;
+    color:white;
+}
+
+#about-me{
+    border: 2px solid black;
+}
+
+.jumbotron{
+  background-color: #D3D3D3;
+}
+
+#full{
+ border: orangered solid 6px; 
+}
+
+#max-content{
+  background-color: powderblue;
 }
