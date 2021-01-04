@@ -13,7 +13,7 @@ const MainPage = () => {
             <Container>
                 <div class="py-4">
 
-                    <div id="border" class="container bg-warning pb-3" style="border-color: black">
+                    <div id="border" class="container bg-warning pb-3" style={{bordercolor: 'black'}}>
                         <h1>About Me</h1>
                         <hr/>
                         <div class=" card-body bg-warning "></div>
