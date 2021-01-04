@@ -15,7 +15,7 @@ function App() {
       <Wrapper>
             <BootstrapNavbar />
             <Router>
-              <div className="blah">
+              <div className="my-style">
 
                 {/* Router cannot have more than one single child element */}
                 <Switch>
