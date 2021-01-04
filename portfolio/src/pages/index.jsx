@@ -1,11 +1,12 @@
 import React from "react";
 
-import { Container } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import Wrapper from "../components/Wrapper/Wrapper"
+import PositiveQuote from "../images/positive.png"
 
 const MainPage = () => {
     return (
@@ -19,7 +20,7 @@ const MainPage = () => {
                         <div class=" card-body bg-warning "></div>
 
                         <div class="media">
-                            <img src="./images-folder/positive.png" class="img-fluid pr-3" alt="Positive change in the world"/>
+                            <Image src={PositiveQuote} class="img-fluid pr-3" alt="Positive change in the world"/>
                             <div id="about-me" class="media-body px-3">
                                 <p>
                                     I am the embodiment of what it means to be a nerd, majority of my life taking place through my
