@@ -23,8 +23,11 @@ class BootstrapNavbar extends React.Component{
                             <li className="nav-item active ml-auto">
                                 <Nav.Link href="/portfolio" className="nav-link">Portfolio</Nav.Link>
                             </li>
-                            <li className="nav-item active ml-auto">
+                            {/* <li className="nav-item active ml-auto">
                                 <Nav.Link href="homeowork-2.html" className="nav-link">Contact Info</Nav.Link>
+                            </li> */}
+                            <li className="nav-item active ml-auto">
+                                <Nav.Link href="" className="nav-link">Resume</Nav.Link>
                             </li>
                         </ul>
                     </Nav>
